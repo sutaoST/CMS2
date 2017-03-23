@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>服务帮助</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/iconfont.css">
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+ <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+ <!--导航 -->
+<div class="nav-head">
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header nav-box">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand nav-logo" href="#"><img src="images/logo.png"></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="nav-ul">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="characteristic.html">CMS特点 </a></li>
+        <li><a href="#">插件扩展</a></li>
+        <li><a href="case.html">建站案例 </a></li>
+        <li><a href="service.html">服务帮助</a></li>
+        <li><a href="#">论坛交流</a></li>
+      </ul>
+      <ul class="nav navbar-right nav-register">
+        <li><a class="enter" href="register.html"><span class="iconfont icon-iconfontdenglu" id="icons"></span> 登录</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->                                         
+  </div><!-- /.container-fluid -->
+</nav></div>
+<!-- 服务帮助 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+   <div class="active item-imgs ">
+      <img src="images/banner04.png" width="100%" alt="...">
+      <div class="carousel-caption carou">
+        <h1 class="text-center site_c">服务帮助</h1>
+        <p class="text-center simple">他们选择我们，是对我们的认可和信任</p>
+        <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+        <input type="text" class="form-control menu-input" placeholder="服务查询">
+        <button type="button" class="btn btn-primary demand ">查询</button></div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" style="overflow: hidden;">
+  <div class="service-help">
+      <div class="row site-box">
+      <h2 class="text-center site-introduce">服务帮助</h2>
+      <p class="text-center site-window">更快速度的找到您所遇到的问题，并为您提供解决答案</p>
+    </div>
+  </div>
+</div>
+<div class="container" style="overflow: hidden;"> 
+  <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 service-list">
+        <ul>
+          <li><h4><a class="titl" href="#">安装问题</a></h4>
+              <div class="service-install">
+                    <p><a href="#">LvyeCms安装适应</a></p>
+                    <p class="install-date">2016-11-21</p>
+                    <p><a href="#">标签语法</a></p>
+                    <p class="install-date">2016-11-21</p>
+                  
+              </div>
+          </li>
+          <li><h4><a class="titl" href="#">伪静态</a></h4>
+              <div class="service-install" style="top:100px;">
+                    <p><a href="#">LvyeCms安装适应</a></p>
+                    <p class="install-date">2016-11-21</p>
+                    <p><a href="#">标签语法</a></p>
+                    <p class="install-date">2016-11-21</p>
+                 </div>
+          </li>
+          <li><h4><a class="titl" href="#">模板制作</a></h4>
+              <div class="service-install" style="top:150px;">
+                    <p><a href="#">LvyeCms安装适应</a></p>
+                    <p class="install-date">2016-11-21</p>
+                    <p><a href="#">标签语法</a></p>
+                    <p class="install-date">2016-11-21</p>
+                 </div>
+          </li>
+          <li><h4><a class="titl" href="#">伪静态</a></h4>
+               <!-- <div class="service-install" style="top:220px;">
+                    <p><a href="#">LvyeCms安装适应</a></p>
+                    <p class="install-date">2016-11-21</p>
+                    <p><a href="#">标签语法</a></p>
+                    <p class="install-date">2016-11-21</p>
+                 </div> -->
+          </li>
+        </ul>
+<script>
+  $(function(){
+    $('.service-list li').hover(function(){
+      $(this).children(".service-install").show('fast');
+    },function(){
+      $(this).children(".service-install").hide();
+    })
+  })
+
+</script>
+
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9">
+          <div class="row dashed">
+            <p class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left"><span class="glyphicon glyphicon-font"></span>文字</p>
+            <h4 class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">LvyeCms安装适应</h4>
+            <p class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right"><span class="glyphicon glyphicon-circle-arrow-right"></span>分享</p>
+          </div>
+          <div class="row dashed">
+            <div class="col-lg-4 ">
+              <p class="text-right article-date">文章来源于：黑子</p>
+            </div>
+            <div class="col-lg-8 ">
+              <p class="text-center article-date">时间：2016-12-28 07:47:37</p>
+            </div>
+          </div>
+          <div class="row syetem-article">
+            <p>本文介绍如何安装系统，以及安装系统时一些需要注意的事项！</p>
+            <p>第一步当然是有网站的运行环境，这里我就不多说，如果这个不会，那你可以先百度了解下再接着往下看！</p>
+            <p>在本站下载最新的源码后，解压，放到网站根目录下，然后直接进行访问，系统会自动引导你到安装界面！</p>
+          </div>
+          <div class="row">
+           <p class="syetem-imgs">图1：这个界面就是安装界面，也就是安装许可！</p>
+          <div class="thumbnail pics">
+          <img src="images/img-35.png" alt="..."></div></div>
+          <div class="row">
+           <p class="syetem-imgs">图2：下图就是你同意安装许可后看到的界面！</p>
+          <div class="thumbnail pics">
+          <img src="images/img-36.png" alt="..."></div></div>
+          <div class="row syetem-article">
+            <p>对于图2需要特别说明的是：</p>
+            <p>如果你是linux系统，文件权限需要注意，以上显示的目录，是必须给可写可读权限的，不会是有问题的。还有网站所处的那个根目录也是一样！模板目录(Template)最好是里面全部文件夹和文件都要有可写可读权限，否则在后台是无法正常修改模板！</p>
+          </div>
+          <div class="row">
+           <p  class="syetem-imgs" style="margin-bottom:10px;">图3：数据库以及后台账号密码。</p>
+           <p style="color:red; margin-bottom:30px;">特别注意:数据库密码不能为空！！！！！</p>
+          <div class="thumbnail pics">
+          <img src="images/img-37.png" alt="..."></div></div>
+          <div class="row syetem-article">
+            <p>图3所显示的，没什么特别的地方，需要注意的地方有：</p>
+            <p>1、数据库密码不能使用空密码。且数据库账号要有全部数据库权限！</p>
+            <p>2、如果你选择使用默认测试数据，需要网站安装在根目录下才可以正常，当然，你安装在二级目录下也是可以的，只是麻烦了点。</p></div>
+          <div class="row">
+           <p class="syetem-imgs">图4：数据库安装界面，没什么可讲的！</p>
+          <div class="thumbnail pics">
+          <img src="images/img-38.png" alt="..."></div></div>
+          <div class="row">
+           <p class="syetem-imgs">图5：这个界面是安装完成界面。</p>
+          <div class="thumbnail pics">
+          <img src="images/img-39.png" alt="..."></div></div>
+          <div class="row syetem-article">
+            <p>到这里，整个系统已经完成安装，但是别急，还有一些需要注意的地方：</p>
+            <p>1、如果你使用了测试数据，且网站没有安装在更目录，你需要进入后台->内容发布管理，进行想要的url更新！更新完这个，同样在这个页面，批量更新内容页，批量更新栏目页，这两个操作！这两步即使你安装在根目录也需要这么操作！</p>
+            <p>2、第一次安装完成，进入后台，最好是更新缓存下！</p></div>
+          <div class="row">
+          <div class="thumbnail pics">
+          <img src="images/img-40.png" alt="..."></div></div>
+          <div class="row chapter">
+             <p>上一篇：<a href="#">安装</a></p>
+             <p>下一篇：<a href="#">模块安装</a></p>
+          </div>
+          </div></div>
+  </div>
+</div>
+<!-- 结尾 -->
+<div class="bottom site-bottom">
+<div class="container" style="overflow: hidden;">
+  <div class="row">
+    <div class="col-lg-4 col-md-2 col-sm-3 col-xs-12">
+      <img src="images/bottom.png" alt="...">
+      <div class="caption">
+        <h2 class="copyright">Copyright © 2012 - 2016 LvyeCMS All Right Reserved</h2></div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-4 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p class="ps">开始</p>
+            <p class="bottom-more">注册账号</p>
+            <p class="bottom-more">免费试用</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p class="ps">服务</p>
+            <p class="bottom-more">如何使用</p>
+            <p class="bottom-more">授权</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <p class="ps">关于</p>
+            <p class="bottom-more">联系我们</p>
+            <p class="bottom-more">博客</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+     <p class="ps">分享
+          <span class="iconfont icon-weibo" id="bottom-icons"></span>
+          <span class="iconfont icon-weixin" id="bottom-icons"></span>
+          <span class="iconfont icon-qq" id="bottom-icons"></span>
+          <span class="iconfont icon-tengxunweibo1193411easyiconnet" id="bottom-icons"></span>
+     </p>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

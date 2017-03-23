@@ -1,0 +1,820 @@
+/* 首页(1~225)*/
+/*导航*/
+/*.nav-head{
+    position:absolute;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}*/
+.nav-logo{
+    padding:15px 15px;
+}
+#nav-ul li a:hover{
+    color: #fff;
+}
+.nav-register{
+    padding-top: 12px;
+    padding-bottom: 25px;
+}
+.nav-register li a{
+    color: #000;
+}
+#icons{
+    color: #349CE9;
+    font-size: 20px; 
+}
+/*轮播*/
+.nav-case{
+    padding-bottom: 0px;
+    bottom: 0px;
+}
+.nav-case h2{
+    font-size: 60px;
+    font-family: "宋体";
+}
+.nav-case .introduce{
+    font-size: 18px;
+}
+.btn-case{
+    width:228px;
+    height: 50px;
+    margin:80px 0;
+    color: #fff;
+    line-height: 35px;
+    background:rgba(255,255,255,0.1);
+}
+.btn-case:hover{
+  background:rgba(255,255,255,0.25);
+  color: #fff;  
+}
+.number{
+    width: 1118px;
+    height: 148px;
+    border-radius: 5px;
+    margin:0 auto;
+    padding: 10px 0;
+    border: 1px solid #A3B0B6;
+    background:rgba(255,255,255,0.25);
+}
+.number li{
+    list-style: none;
+    float: left;
+    width:370px;
+    border-right: 1px solid #A3B0B6;
+}
+.number li{
+    font-size:70px;
+}
+.number li b{
+    font-size: 20px;
+}
+.number li span{
+    display:block;
+    font-size: 16px;
+}
+.nav-case p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+/* 建站案例 */
+.case-box{
+    clear: both;
+}
+.case{
+    color: #323232;
+    margin-top:60px;
+    font-family: "宋体";
+}
+.case-two{
+    margin-top: 75px;
+}
+.pics{
+    border:0px;
+}
+.btns{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 42px;
+    border:1px solid #323232;
+    margin:0 auto;
+    display: block;
+}
+.btn-more{
+    width: 300px;
+    height: 60px;
+    line-height: 42px;
+    font-size: 20px;
+    border:1px solid #323232;
+    border-radius: 0px;
+    margin:0 auto;
+    display: block;
+}
+.wt{
+    width: 100%;
+    margin:70px auto; 
+}
+.bg-img{
+	height:274px;
+	background:url(../images/img_4.jpg) no-repeat center;}
+.lvy{
+    font-size: 40px;
+    color: #fff;
+    margin:50px auto;
+    font-family: "宋体"
+}
+.pph{
+    font-size: 18px;
+    color: #fff;
+}
+/*旅烨CMS特点*/
+.thumbnai{
+    border:0px;
+    float: left;
+    padding: 0;
+}
+.newWeb{
+    width: 100%;
+    margin:100px auto;
+}
+.newWeb h2{
+    font-size: 40px;
+    font-family: "宋体";
+}
+.ip{
+    font-size: 20px;
+    color: #66B8F5;
+    margin:40px 37px;
+}
+.abstract{
+    margin-left: 37px;
+    font-size: 16px;
+}
+.arrows{
+    margin-top: 290px;
+    margin-left: 37px;
+}
+.most{
+    margin-top: 50px;
+}
+/*服务帮助*/
+.row-box{
+    margin-bottom: 60px;
+}
+.dates h3{
+    font-size: 30px;
+}
+.dates p h3{
+    color: #656565;
+}
+.dlsuccess{
+    font-size:18px;
+    color: #2084DB; 
+}
+.dlsuccess > .times{
+    float: right;
+    font-size: 12px;
+    color: #656565;
+    line-height: 25px;
+}
+.shuzi{
+    font-size: 12px;
+}
+.present{
+    border-right: 0px;
+    border-left: 0px;
+    padding: 17px 0;
+}
+.hot a{
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    border-bottom:2px solid red; 
+}
+/*.hot a:hover{
+   border-bottom: 2px solid red; 
+}*/
+/*结尾 */
+.bottom{
+    width: 100%;
+    padding: 80px 0;
+    background: #408DE6;
+}
+.copyright{
+    font-size: 12px;
+    color: #fff;
+}
+.ps{
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottom-more{
+    font-size: 14px;
+    color: #fff;
+}
+#bottom-icons{
+    font-size: 37px;
+    color: #fff;
+    margin-left: 10px;
+} /* 首页结束 */
+
+/*CMS特点[228~287]*/
+.item-imgs img{
+    height: 510px;
+}
+.system{
+    color: #fff;
+    font-size: 60px;
+}
+.simple{
+    font-size: 18px;
+    color: #fff;
+}
+.download{
+    width: 228px;
+    height: 50px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 18px;
+    border:1px solid #fff;
+    display: block;
+    margin:40px auto;
+    background:rgba(255,255,255,0.1);
+}
+.download:hover{
+   background:rgba(255,255,255,0.1);
+   color: #fff;
+}
+#down-icons{
+    border-bottom: 2px solid #fff;
+}
+.pictures{
+    margin-top: 100px;
+}
+.pictures-intro{
+    margin-top: 100px;
+}
+.pictures-intro h2{
+    font-size: 26px;
+}
+.pictures-intro p{
+    font-size: 16px;
+}
+/*开源 CMS */
+.source{
+    margin-top: 150px;
+    font-size: 36px;
+    color: #165793;   
+}
+.sources{
+    font-size: 18px;
+    color: #5D6D7F;
+}
+.w-box{
+    width: 100%;
+    margin-top: 70px;
+}
+.hx{
+    border:0px;
+}
+
+
+/*CMS建站案例[289~348]*/
+.belive{
+    margin-bottom: 230px;
+    font-size: 18px;
+}
+.site-case{
+    margin-top: 125px;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom:15px;
+}
+.site-box{
+    margin-bottom: 60px;
+}
+.site-introduce{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.site-window{
+    font-size: 18px;
+}
+.rank{
+    margin-top: 60px;
+}
+.rank li{
+    list-style: none;
+    float: left;
+}
+.page{
+    width: 108px;
+    height: 38px;
+    border:1px solid #000;
+    line-height: 38px;
+    text-align: center;
+    margin-left: 20px;
+}
+.page a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.page-number{
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 20px;   
+}
+.page-number a{
+     font-size: 20px;
+     color: #000;
+    text-decoration: none;
+}
+.page-number:hover{
+    background: #4585F3;
+    border:0px;
+    color: #fff;
+}
+.site-bottom{
+    margin-top: 60px;
+}
+
+/*服务帮助【350~423】*/
+.site_c{
+    font-size:60px;
+}
+
+
+.menu-input{
+    height: 55px;
+    width: 80%;
+    margin-top: 70px;
+    float: left;
+    font-size: 18px;
+
+}
+.demand{
+    float: left;
+    margin-top: 70px;
+    width: 20%;
+    height: 55px;
+    font-size: 18px;
+}
+.service-help{
+    height: 214px;
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 55px;
+}
+.service-list ul li{
+    list-style: none;
+    width: 100px;
+    height: 40px;
+}
+.service-list h4{
+        margin-top: 25px;
+        color: #2E99E8;
+}
+.service-list h4 .titl:hover{
+   border-left: 2px solid #2E99E8;
+   text-decoration: none; 
+}
+.service-install{
+    margin-top: 20px;
+    position: absolute;
+    display:none;
+    width: 113px;
+    height: 114px;
+    left: 130px;
+    top:40px;
+}
+.service-install p a{
+    font-size: 12px;
+}
+.install-date{
+    font-size: 12px;
+    color: #989898;
+}
+
+
+/*中间内容*/
+.dashed{
+    border-bottom: 1px dashed #ccc;    
+}
+.dashed p{
+    font-size: 16px;
+}
+.dashed h4{
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+.article-date{
+    font-size: 12px;
+    color: #989898;
+    margin-top: 10px;
+}
+.syetem-article{
+    margin-top: 35px; 
+}
+.syetem-imgs{
+    margin:35px auto;
+}
+.chapter p{
+    font-size: 18px;
+    font-weight: 600;
+}
+/*登录*/
+.dl-img{
+    height: 610px;
+    width: 1920px;
+}
+.word-internent{
+    font-size: 36px;
+}
+.system-web{
+    font-size: 18px;
+    margin-bottom: 230px;
+}
+
+.dl-box{
+    background: #fff;
+    width: 346px;
+    height: 332px;
+    /*float: right;*/
+    margin-bottom: 120px;
+    padding: 30px;
+}
+.dl-box h4{
+    color: #000;
+    font-weight: 600;
+
+}
+
+.login{
+    margin-top: 20px;
+}
+.ld-user{
+    padding: 0px;
+    border:1px solid #7F7F7F;
+}
+.dl-input{
+    padding-left: 0px;
+    border:1px solid #7F7F7F;
+    border-left: 0px;
+}
+#dl-icon{
+    color: #7F7F7F;
+    
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.ld-name{
+    
+    height: 40px;
+    border:medium none;
+    
+    
+    border-radius: 0px;
+}
+.rember-pas{
+   color: #000;
+   padding: 0px;
+}
+.dl-button{
+    width: 100%;
+    border-radius: 0px;
+}
+
+
+
+/*滚动*/
+/*.web-case{
+    padding:75px  0;
+}*/
+.titles{
+    text-align: center;
+    color:#333;
+}
+.titles h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+.titles p{
+    font-size: 18px;
+}
+
+.row-content{
+    width: 1080px;
+    height: 510px;
+    position: relative; 
+    overflow:hidden;
+    margin:0 auto;
+}
+
+.row-list{
+    width: 4000px;
+    position: absolute;
+   
+}
+.row-list .list-content{
+    width: 360px;
+}
+
+.thumbnaila{
+    padding:0;
+    border:0;
+    border-radius: 0;
+    margin:80px 0;
+}
+.thumbnaila img{
+    width: 100%;
+}
+
+
+.thumbnaila a:hover{
+    text-decoration: none;
+}
+.thumbnaila h3{
+    font-size: 18px;
+    color:#333;
+}
+.thumbnail-bottom{
+    text-align: center;
+}
+.thumbnail-bottom .btn-default{
+    border:1px solid #333;
+    border-radius: 0;
+    color:#333;
+    background: transparent;
+}
+.thumbnail-bottom .more{
+    width: 298px;
+    height: 58px;
+    line-height: 33px;
+}
+.thumbnail-bottom .prev,.thumbnail-bottom .next{
+    width: 58px;
+    height: 58px;
+    padding:0;
+    color:#646464;
+    font-size: 30px;
+}
+.mora{
+    border:1px solid #000;
+    width: 200px;
+    height: 58px;
+    font-size: 30px;
+    background: #fff;
+}
+/*媒体查询*/
+@media (max-width: 1370px){
+    .btn-case{
+        margin:20px 0;
+    }
+    .number{
+        width: 790px;
+    }
+    .number li{
+        width: 262px;
+    }
+  .site_c{
+    font-size: 60px;
+}  
+}
+
+/*媒体查询*/
+/*小于985*/
+@media (max-width: 985px){
+    #nav-ul li a{
+        padding: 25px 13px;
+    }
+  .nav .enter{
+    padding: 10px 10px;
+    }
+  .nav-case h2{
+    font-size: 25px;
+    font-family: "宋体";
+}
+
+   .btn-case{
+        width:150px;
+        height: 25px;
+        margin:8px 0;
+        color: #fff;
+        line-height: 10px;
+        background:rgba(255,255,255,0.1);
+    }
+    .number{
+    width: 600px;
+    height: 80px;
+    border-radius: 5px;
+    margin:0 auto;
+    padding: 10px 0;
+    border: 1px solid #A3B0B6;
+    background:rgba(255,255,255,0.25);
+}
+    .number li{
+        list-style: none;
+        float: left;
+        width:198px;
+        border-right: 1px solid #A3B0B6;
+    }
+    .number li{
+        font-size:30px;
+    }
+    .number li b{
+        font-size:15px;
+    }
+    .number li span{
+        display:block;
+        font-size: 14px;
+    }
+    .btn-more {
+    width: 150px;
+    height: 60px;
+    line-height: 42px;
+    font-size: 20px;
+    border: 1px solid #323232;
+    border-radius: 0px;
+    margin: 0 auto;
+    display: block;
+ }
+.most{
+    margin-top:0px;
+}
+.arrows {
+    margin-top: 30px;}
+.newWeb {
+    margin: 20px auto;
+}
+/*CMS特点*/
+.item-imgs img{
+    height: auto;
+}
+.pictures{
+    margin-top: 0px;
+}
+.pictures-intro{
+    margin-top: 20px;
+}
+.source{
+    margin-top: 30px;  
+}
+.high>img{
+    height: 510px;
+}
+.carou{
+    bottom: 20px;
+    padding: 0px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+.system{
+    font-size: 30px;
+}
+.simple {
+    font-size: 12px;
+}
+.download{
+    width: 180px;
+    margin:0 auto;
+}
+/*建站案例*/
+.site-case{
+    font-size: 30px;
+}
+.belive{
+    margin-bottom: 110px;
+
+}
+/*CMS服务*/
+.menu-input{
+    margin-top: 30px;
+}
+.demand{
+    margin-top:30px;
+}
+.site_c{
+    font-size: 35px;
+}
+/*登录*/
+.dl-box{
+    margin:80px auto;
+    }
+/*滚动*/
+ .thumbnail-bottom .more {
+    width:auto;}
+.row-content {
+    width: auto;}
+
+
+}
+
+
+/*小于435*/
+@media (max-width: 435px){
+    
+  .nav-case h2{
+    font-size:20px;
+    font-family: "宋体";
+}
+    .nav-case .introduce{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .thumbnai{
+        width: 100%;
+    }
+  .page{
+    width: 40px;
+    height: 25px;
+   line-height: 22px;
+   margin-left: 5px;}
+   .page a{
+    font-size: 12px;
+   }
+    .page-number{
+    width: 20px;
+    height: 25px;
+    line-height: 22px;
+    margin-left: 5px;   
+}
+.page-number a{
+     font-size: 12px;
+}
+
+/*CMS特点页*/
+.item-imgs img{
+    height: 120px;
+}
+.system{
+    font-size: 15px;
+}
+.download{
+    width: 100px;
+    height: 25px;
+    line-height: 10px;
+    font-size: 10px;
+    margin:0 auto;
+}
+/*建站案例*/
+.site-case{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.belive{
+    margin-bottom: 40px;
+    font-size:12px; }
+/*CMS服务*/
+.menu-input{
+    height: 25px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+.demand{
+    margin-top: 0px;
+    height: 25px;
+    font-size: 12px;
+}
+.site-c{
+    font-size: 20px;
+}
+.article-date{
+    text-align: center;
+}
+.syetem-article{
+    padding:0 15px;
+}
+/*滚动*/
+.thumbnail-bottom .prev, .thumbnail-bottom .next {
+    width: auto;
+    height: auto;}
+.thumbnail-bottom .more{
+    line-height: 23px;
+    height: auto;
+}
+.thumbnaila img{
+    width: 100%;
+}
+.list-content{
+    padding-left: 0px;
+}
+.thumbnail-bottom .mora{   
+     width: 80px;
+     font-size: 12px;
+     height:45px;           
+}
+.service-install{
+    top:0px;
+}
+}
